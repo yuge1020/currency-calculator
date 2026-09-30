@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">汇率计算器</string>
+    <string name="placeholder_init">工程已初始化 — Phase 1B</string>
+</resources>
