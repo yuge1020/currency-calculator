@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Currency Calculator</string>
+    <string name="placeholder_init">Project initialized — Phase 1B</string>
+</resources>
