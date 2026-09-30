@@ -17,7 +17,8 @@
 | 语言 | Kotlin | 唯一开发语言 |
 | UI | Jetpack Compose | 声明式 UI，不使用 XML 布局开发新界面 |
 | API 策略 | 官方 Android / Jetpack API 优先 | 引入任何第三方库必须给出理由并通过技术审查 |
-| min / target SDK | **待确认**（OQ-13） | target SDK 不得低于 Google Play 当前要求（见 GOOGLE-PLAY-RELEASE-REQUIREMENTS-V1.0.md，2026-09-30 核查：新应用/更新须 target API 36+） |
+| minSdk | **26**（2026-09-30 定稿，OQ-13 已关闭） | — |
+| compileSdk / targetSdk | **36（Android 16）**（2026-09-30 定稿） | targetSdk 36 满足 Google Play 当前要求（2026-08-31 起须 API 36+，见 GOOGLE-PLAY-RELEASE-REQUIREMENTS-V1.0.md）；此为当前发布目标，**不视为永久固定值**，Play 要求变化时发布前重新核查 |
 
 ## 2. 核心原则
 
@@ -93,7 +94,7 @@ UI (Compose) ──事件──▶ ViewModel ──调用──▶ Domain / Repo
 
 | 编号 | 事项 | 状态 |
 |---|---|---|
-| OQ-13 | minSdk / targetSdk / compileSdk 定稿 | 待确认 |
+| OQ-13 | minSdk / targetSdk / compileSdk 定稿 | **已关闭**（2026-09-30）：minSdk 26 / compileSdk 36 / targetSdk 36 |
 | OQ-14 | 本地缓存方案（DataStore / Room 等） | 待确认 |
 | OQ-15 | 汇率数据源（API）选型 | 待确认 |
 | OQ-16 | 汇率自动更新的触发时机（仅手动 / 进前台 / 定时） | 待确认 |

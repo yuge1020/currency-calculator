@@ -20,7 +20,7 @@
 - 单模块 `app` 起步，包结构遵循 PROJECT-STRUCTURE-V1.0.md
 - 资源命名：`snake_case`（如 `ic_refresh`、`label_calculator`）
 - 版本目录（libs.versions.toml）管理依赖版本，禁止散落的魔法版本号
-- min / target / compile SDK 以 OQ-13 定稿为准，定稿后不得随意变更
+- SDK 已定稿（2026-09-30，OQ-13 已关闭）：minSdk 26 / compileSdk 36 / targetSdk 36；不得随意变更；Google Play 要求变化时在发布前重新核查官方要求
 
 ## 3. Jetpack Compose 规范
 
@@ -53,7 +53,7 @@
 ## 7. 字符串资源与国际化规范（红线）
 
 - **不允许硬编码任何产品文案**：所有用户可见文字（含按钮、提示、无障碍描述）必须来自 `strings.xml`
-- 六种首发语言（清单待确认 OQ-01）各建 `values-<lang>/strings.xml`
+- 六种首发语言（已锁定：简体中文、English、日本語、Deutsch、Français、Español）各建对应 `values-<lang>/strings.xml`（如 `values-zh-rCN`、`values-en`、`values-ja`、`values-de`、`values-fr`、`values-es`）
 - 默认 `values/` 使用基准语言；翻译以 Product Owner 提供的内容为准，不得机翻自造
 - 金额、时间格式化使用系统本地化能力（`NumberFormat` / `DateTimeFormatter` + ISO 4217 小数位）
 

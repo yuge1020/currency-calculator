@@ -102,7 +102,7 @@ USD、EUR、CNY、JPY、GBP、HKD、TWD、KRW、SGD、AUD、CAD、CHF、PLN、TH
 - 首次启动显示引导（引导内容与形式待确认，见 §12）
 
 ### FR-11 国际化
-- **六种首发语言**（具体语言清单待确认，见 §12）
+- **六种首发语言（已正式锁定，OQ-01 已关闭）**：简体中文、English、日本語、Deutsch、Français、Español
 - 所有界面文字支持国际化，不允许硬编码文案
 
 ### FR-12 主题
@@ -175,7 +175,7 @@ USD、EUR、CNY、JPY、GBP、HKD、TWD、KRW、SGD、AUD、CAD、CHF、PLN、TH
 
 | 编号 | 事项 | 状态 |
 |---|---|---|
-| OQ-01 | 六种首发语言的具体清单 | 待确认 |
+| OQ-01 | 六种首发语言的具体清单 | **已关闭**（2026-09-30 定稿）：简体中文、English、日本語、Deutsch、Français、Español |
 | OQ-02 | 本地货币判定规则（设备地区 / SIM / 手动） | 待确认 |
 | OQ-03 | 第二行「熟悉货币」默认值规则 | 待确认 |
 | OQ-04 | Push 的业务场景、触发规则与供应商 | 待确认 |

@@ -21,9 +21,12 @@ Google Play 政策与目标 API 要求**随时间变化**。本文件不写死�
 
 | 项 | 要求 |
 |---|---|
-| Target SDK | 不得低于 Google Play 当期要求。**2026-09-30 核查**：自 2026-08-31 起，新应用与应用更新必须 target Android 16（API level 36）或更高（手机/平板）方可提交 Google Play |
-| Compile SDK | 建议与当期最新稳定 SDK 对齐（随 OQ-13 由技术审查定稿） |
-| 来源 | Google 官方：[Meet Google Play's target API level requirements](https://developer.android.com/google/play/requirements/target-sdk) |
+| Target SDK | **36（Android 16）**（2026-09-30 定稿，OQ-13 已关闭），满足 Google Play 当期要求：自 2026-08-31 起，新应用与应用更新必须 target Android 16（API level 36）或更高（手机/平板）方可提交 Google Play |
+| Compile SDK | **36**（2026-09-30 定稿），与当前发布目标对齐 |
+| minSdk | **26**（2026-09-30 定稿） |
+| 来源 | Google 官方：[Meet Google Play's target API level requirements](https://developer.android.com/google/play/requirements/target-sdk)，核查日期 2026-09-30 |
+
+> 注：以上为 2026-09-30 定稿值，是**当前发布目标**，不视为永久不变；每次提交 Play 前按 §1 重新核查官方要求。
 
 ## 3. 构建与签名
 

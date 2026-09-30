@@ -5,7 +5,7 @@
 | 文档版本 | V1.0 |
 | 状态 | **蓝图**——本阶段不创建任何代码目录，此文件仅记录未来 Android 工程的目标结构 |
 | 入库日期 | 2026-09-30 |
-| 约束 | applicationId / 最终 package 名称与更细目录由技术架构设计决定（见 ARCHITECTURE-V1.0.md OQ-13），此处以 `<package>` 占位 |
+| 约束 | SDK 已定稿（minSdk 26 / compileSdk 36 / targetSdk 36，2026-09-30，见 ARCHITECTURE-V1.0.md）；applicationId / 最终 package 名称与更细目录由技术架构设计决定，此处以 `<package>` 占位 |
 
 ---
 
